@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0784946F1ECDC49000D060F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784946E1ECDC49000D060F2 /* main.m */; };
+		078494721ECDC49000D060F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494711ECDC49000D060F2 /* AppDelegate.m */; };
+		078494781ECDC49000D060F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078494761ECDC49000D060F2 /* Main.storyboard */; };
+		0784947A1ECDC49000D060F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078494791ECDC49000D060F2 /* Assets.xcassets */; };
+		0784947D1ECDC49000D060F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0784947B1ECDC49000D060F2 /* LaunchScreen.storyboard */; };
+		078494881ECDC49000D060F2 /* HGesturesPasswordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494871ECDC49000D060F2 /* HGesturesPasswordDemoTests.m */; };
+		078494931ECDC49000D060F2 /* HGesturesPasswordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494921ECDC49000D060F2 /* HGesturesPasswordDemoUITests.m */; };
+		078494A41ECDC4B700D060F2 /* HGesturesPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494A11ECDC4B700D060F2 /* HGesturesPasswordVC.m */; };
+		078494A51ECDC4B700D060F2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494A31ECDC4B700D060F2 /* TableViewController.m */; };
+		078494A91ECDC4CA00D060F2 /* HGesturesPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494A81ECDC4CA00D060F2 /* HGesturesPasswordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		078494841ECDC49000D060F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078494621ECDC49000D060F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078494691ECDC49000D060F2;
+			remoteInfo = HGesturesPasswordDemo;
+		};
+		0784948F1ECDC49000D060F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078494621ECDC49000D060F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078494691ECDC49000D060F2;
+			remoteInfo = HGesturesPasswordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0784946A1ECDC49000D060F2 /* HGesturesPasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGesturesPasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0784946E1ECDC49000D060F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		078494701ECDC49000D060F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		078494711ECDC49000D060F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		078494771ECDC49000D060F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		078494791ECDC49000D060F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0784947C1ECDC49000D060F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0784947E1ECDC49000D060F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078494831ECDC49000D060F2 /* HGesturesPasswordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGesturesPasswordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078494871ECDC49000D060F2 /* HGesturesPasswordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGesturesPasswordDemoTests.m; sourceTree = "<group>"; };
+		078494891ECDC49000D060F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0784948E1ECDC49000D060F2 /* HGesturesPasswordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGesturesPasswordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078494921ECDC49000D060F2 /* HGesturesPasswordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGesturesPasswordDemoUITests.m; sourceTree = "<group>"; };
+		078494941ECDC49000D060F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078494A01ECDC4B700D060F2 /* HGesturesPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGesturesPasswordVC.h; sourceTree = "<group>"; };
+		078494A11ECDC4B700D060F2 /* HGesturesPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGesturesPasswordVC.m; sourceTree = "<group>"; };
+		078494A21ECDC4B700D060F2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		078494A31ECDC4B700D060F2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		078494A71ECDC4CA00D060F2 /* HGesturesPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGesturesPasswordView.h; sourceTree = "<group>"; };
+		078494A81ECDC4CA00D060F2 /* HGesturesPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGesturesPasswordView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078494671ECDC49000D060F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078494801ECDC49000D060F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0784948B1ECDC49000D060F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078494611ECDC49000D060F2 = {
+			isa = PBXGroup;
+			children = (
+				0784946C1ECDC49000D060F2 /* HGesturesPasswordDemo */,
+				078494861ECDC49000D060F2 /* HGesturesPasswordDemoTests */,
+				078494911ECDC49000D060F2 /* HGesturesPasswordDemoUITests */,
+				0784946B1ECDC49000D060F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0784946B1ECDC49000D060F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0784946A1ECDC49000D060F2 /* HGesturesPasswordDemo.app */,
+				078494831ECDC49000D060F2 /* HGesturesPasswordDemoTests.xctest */,
+				0784948E1ECDC49000D060F2 /* HGesturesPasswordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0784946C1ECDC49000D060F2 /* HGesturesPasswordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				078494701ECDC49000D060F2 /* AppDelegate.h */,
+				078494711ECDC49000D060F2 /* AppDelegate.m */,
+				078494A01ECDC4B700D060F2 /* HGesturesPasswordVC.h */,
+				078494A11ECDC4B700D060F2 /* HGesturesPasswordVC.m */,
+				078494A21ECDC4B700D060F2 /* TableViewController.h */,
+				078494A31ECDC4B700D060F2 /* TableViewController.m */,
+				078494A61ECDC4CA00D060F2 /* HGesturesPassword */,
+				078494761ECDC49000D060F2 /* Main.storyboard */,
+				078494791ECDC49000D060F2 /* Assets.xcassets */,
+				0784947B1ECDC49000D060F2 /* LaunchScreen.storyboard */,
+				0784947E1ECDC49000D060F2 /* Info.plist */,
+				0784946D1ECDC49000D060F2 /* Supporting Files */,
+			);
+			path = HGesturesPasswordDemo;
+			sourceTree = "<group>";
+		};
+		0784946D1ECDC49000D060F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0784946E1ECDC49000D060F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		078494861ECDC49000D060F2 /* HGesturesPasswordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				078494871ECDC49000D060F2 /* HGesturesPasswordDemoTests.m */,
+				078494891ECDC49000D060F2 /* Info.plist */,
+			);
+			path = HGesturesPasswordDemoTests;
+			sourceTree = "<group>";
+		};
+		078494911ECDC49000D060F2 /* HGesturesPasswordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				078494921ECDC49000D060F2 /* HGesturesPasswordDemoUITests.m */,
+				078494941ECDC49000D060F2 /* Info.plist */,
+			);
+			path = HGesturesPasswordDemoUITests;
+			sourceTree = "<group>";
+		};
+		078494A61ECDC4CA00D060F2 /* HGesturesPassword */ = {
+			isa = PBXGroup;
+			children = (
+				078494A71ECDC4CA00D060F2 /* HGesturesPasswordView.h */,
+				078494A81ECDC4CA00D060F2 /* HGesturesPasswordView.m */,
+			);
+			path = HGesturesPassword;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078494691ECDC49000D060F2 /* HGesturesPasswordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078494971ECDC49000D060F2 /* Build configuration list for PBXNativeTarget "HGesturesPasswordDemo" */;
+			buildPhases = (
+				078494661ECDC49000D060F2 /* Sources */,
+				078494671ECDC49000D060F2 /* Frameworks */,
+				078494681ECDC49000D060F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGesturesPasswordDemo;
+			productName = HGesturesPasswordDemo;
+			productReference = 0784946A1ECDC49000D060F2 /* HGesturesPasswordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		078494821ECDC49000D060F2 /* HGesturesPasswordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0784949A1ECDC49000D060F2 /* Build configuration list for PBXNativeTarget "HGesturesPasswordDemoTests" */;
+			buildPhases = (
+				0784947F1ECDC49000D060F2 /* Sources */,
+				078494801ECDC49000D060F2 /* Frameworks */,
+				078494811ECDC49000D060F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078494851ECDC49000D060F2 /* PBXTargetDependency */,
+			);
+			name = HGesturesPasswordDemoTests;
+			productName = HGesturesPasswordDemoTests;
+			productReference = 078494831ECDC49000D060F2 /* HGesturesPasswordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0784948D1ECDC49000D060F2 /* HGesturesPasswordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0784949D1ECDC49000D060F2 /* Build configuration list for PBXNativeTarget "HGesturesPasswordDemoUITests" */;
+			buildPhases = (
+				0784948A1ECDC49000D060F2 /* Sources */,
+				0784948B1ECDC49000D060F2 /* Frameworks */,
+				0784948C1ECDC49000D060F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078494901ECDC49000D060F2 /* PBXTargetDependency */,
+			);
+			name = HGesturesPasswordDemoUITests;
+			productName = HGesturesPasswordDemoUITests;
+			productReference = 0784948E1ECDC49000D060F2 /* HGesturesPasswordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078494621ECDC49000D060F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yyh;
+				TargetAttributes = {
+					078494691ECDC49000D060F2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					078494821ECDC49000D060F2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 078494691ECDC49000D060F2;
+					};
+					0784948D1ECDC49000D060F2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 078494691ECDC49000D060F2;
+					};
+				};
+			};
+			buildConfigurationList = 078494651ECDC49000D060F2 /* Build configuration list for PBXProject "HGesturesPasswordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078494611ECDC49000D060F2;
+			productRefGroup = 0784946B1ECDC49000D060F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078494691ECDC49000D060F2 /* HGesturesPasswordDemo */,
+				078494821ECDC49000D060F2 /* HGesturesPasswordDemoTests */,
+				0784948D1ECDC49000D060F2 /* HGesturesPasswordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078494681ECDC49000D060F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0784947D1ECDC49000D060F2 /* LaunchScreen.storyboard in Resources */,
+				0784947A1ECDC49000D060F2 /* Assets.xcassets in Resources */,
+				078494781ECDC49000D060F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078494811ECDC49000D060F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0784948C1ECDC49000D060F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078494661ECDC49000D060F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078494A41ECDC4B700D060F2 /* HGesturesPasswordVC.m in Sources */,
+				078494721ECDC49000D060F2 /* AppDelegate.m in Sources */,
+				0784946F1ECDC49000D060F2 /* main.m in Sources */,
+				078494A51ECDC4B700D060F2 /* TableViewController.m in Sources */,
+				078494A91ECDC4CA00D060F2 /* HGesturesPasswordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0784947F1ECDC49000D060F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078494881ECDC49000D060F2 /* HGesturesPasswordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0784948A1ECDC49000D060F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078494931ECDC49000D060F2 /* HGesturesPasswordDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078494851ECDC49000D060F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078494691ECDC49000D060F2 /* HGesturesPasswordDemo */;
+			targetProxy = 078494841ECDC49000D060F2 /* PBXContainerItemProxy */;
+		};
+		078494901ECDC49000D060F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078494691ECDC49000D060F2 /* HGesturesPasswordDemo */;
+			targetProxy = 0784948F1ECDC49000D060F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		078494761ECDC49000D060F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078494771ECDC49000D060F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0784947B1ECDC49000D060F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0784947C1ECDC49000D060F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078494951ECDC49000D060F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		078494961ECDC49000D060F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		078494981ECDC49000D060F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HGesturesPasswordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HGesturesPasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		078494991ECDC49000D060F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HGesturesPasswordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HGesturesPasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0784949B1ECDC49000D060F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HGesturesPasswordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HGesturesPasswordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGesturesPasswordDemo.app/HGesturesPasswordDemo";
+			};
+			name = Debug;
+		};
+		0784949C1ECDC49000D060F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HGesturesPasswordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HGesturesPasswordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGesturesPasswordDemo.app/HGesturesPasswordDemo";
+			};
+			name = Release;
+		};
+		0784949E1ECDC49000D060F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HGesturesPasswordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HGesturesPasswordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HGesturesPasswordDemo;
+			};
+			name = Debug;
+		};
+		0784949F1ECDC49000D060F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HGesturesPasswordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HGesturesPasswordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HGesturesPasswordDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078494651ECDC49000D060F2 /* Build configuration list for PBXProject "HGesturesPasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078494951ECDC49000D060F2 /* Debug */,
+				078494961ECDC49000D060F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078494971ECDC49000D060F2 /* Build configuration list for PBXNativeTarget "HGesturesPasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078494981ECDC49000D060F2 /* Debug */,
+				078494991ECDC49000D060F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0784949A1ECDC49000D060F2 /* Build configuration list for PBXNativeTarget "HGesturesPasswordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0784949B1ECDC49000D060F2 /* Debug */,
+				0784949C1ECDC49000D060F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0784949D1ECDC49000D060F2 /* Build configuration list for PBXNativeTarget "HGesturesPasswordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0784949E1ECDC49000D060F2 /* Debug */,
+				0784949F1ECDC49000D060F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078494621ECDC49000D060F2 /* Project object */;
+}
