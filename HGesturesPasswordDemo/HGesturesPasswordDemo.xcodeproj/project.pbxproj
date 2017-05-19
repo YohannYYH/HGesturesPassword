@@ -14,9 +14,9 @@
 		0784947D1ECDC49000D060F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0784947B1ECDC49000D060F2 /* LaunchScreen.storyboard */; };
 		078494881ECDC49000D060F2 /* HGesturesPasswordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494871ECDC49000D060F2 /* HGesturesPasswordDemoTests.m */; };
 		078494931ECDC49000D060F2 /* HGesturesPasswordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494921ECDC49000D060F2 /* HGesturesPasswordDemoUITests.m */; };
-		078494A41ECDC4B700D060F2 /* HGesturesPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494A11ECDC4B700D060F2 /* HGesturesPasswordVC.m */; };
 		078494A51ECDC4B700D060F2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494A31ECDC4B700D060F2 /* TableViewController.m */; };
 		078494A91ECDC4CA00D060F2 /* HGesturesPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494A81ECDC4CA00D060F2 /* HGesturesPasswordView.m */; };
+		078494EB1ECE7F4A00D060F2 /* HGesturesPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 078494EA1ECE7F4A00D060F2 /* HGesturesPasswordVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +51,12 @@
 		0784948E1ECDC49000D060F2 /* HGesturesPasswordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGesturesPasswordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078494921ECDC49000D060F2 /* HGesturesPasswordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGesturesPasswordDemoUITests.m; sourceTree = "<group>"; };
 		078494941ECDC49000D060F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		078494A01ECDC4B700D060F2 /* HGesturesPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGesturesPasswordVC.h; sourceTree = "<group>"; };
-		078494A11ECDC4B700D060F2 /* HGesturesPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGesturesPasswordVC.m; sourceTree = "<group>"; };
 		078494A21ECDC4B700D060F2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		078494A31ECDC4B700D060F2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		078494A71ECDC4CA00D060F2 /* HGesturesPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGesturesPasswordView.h; sourceTree = "<group>"; };
 		078494A81ECDC4CA00D060F2 /* HGesturesPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGesturesPasswordView.m; sourceTree = "<group>"; };
+		078494E91ECE7F4A00D060F2 /* HGesturesPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGesturesPasswordVC.h; sourceTree = "<group>"; };
+		078494EA1ECE7F4A00D060F2 /* HGesturesPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGesturesPasswordVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +109,6 @@
 			children = (
 				078494701ECDC49000D060F2 /* AppDelegate.h */,
 				078494711ECDC49000D060F2 /* AppDelegate.m */,
-				078494A01ECDC4B700D060F2 /* HGesturesPasswordVC.h */,
-				078494A11ECDC4B700D060F2 /* HGesturesPasswordVC.m */,
 				078494A21ECDC4B700D060F2 /* TableViewController.h */,
 				078494A31ECDC4B700D060F2 /* TableViewController.m */,
 				078494A61ECDC4CA00D060F2 /* HGesturesPassword */,
@@ -154,6 +152,8 @@
 			children = (
 				078494A71ECDC4CA00D060F2 /* HGesturesPasswordView.h */,
 				078494A81ECDC4CA00D060F2 /* HGesturesPasswordView.m */,
+				078494E91ECE7F4A00D060F2 /* HGesturesPasswordVC.h */,
+				078494EA1ECE7F4A00D060F2 /* HGesturesPasswordVC.m */,
 			);
 			path = HGesturesPassword;
 			sourceTree = "<group>";
@@ -291,10 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078494A41ECDC4B700D060F2 /* HGesturesPasswordVC.m in Sources */,
 				078494721ECDC49000D060F2 /* AppDelegate.m in Sources */,
 				0784946F1ECDC49000D060F2 /* main.m in Sources */,
 				078494A51ECDC4B700D060F2 /* TableViewController.m in Sources */,
+				078494EB1ECE7F4A00D060F2 /* HGesturesPasswordVC.m in Sources */,
 				078494A91ECDC4CA00D060F2 /* HGesturesPasswordView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +527,7 @@
 				078494991ECDC49000D060F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0784949A1ECDC49000D060F2 /* Build configuration list for PBXNativeTarget "HGesturesPasswordDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +536,7 @@
 				0784949C1ECDC49000D060F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0784949D1ECDC49000D060F2 /* Build configuration list for PBXNativeTarget "HGesturesPasswordDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +545,7 @@
 				0784949F1ECDC49000D060F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
