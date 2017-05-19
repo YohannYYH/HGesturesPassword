@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HGesturesPassword"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "yyh 手势密码"
   s.description  = "yyh 手势密码，创建、验证"
 
