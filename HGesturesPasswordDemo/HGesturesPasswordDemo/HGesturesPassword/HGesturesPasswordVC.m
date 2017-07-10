@@ -190,6 +190,7 @@
         [self showAlertViewWith:@"验证成功"];
     }else {
         
+        self.errorCount ++;
         if (self.errorCount == 5) {
             
             [self savePassWord:nil];
@@ -197,7 +198,6 @@
             return;
         }
         
-        self.errorCount ++;
         [self.pswView showError];
         [self showTipsWith:[NSString stringWithFormat:@"密码错误，还剩%ld次机会", (5 - self.errorCount)] color:kErrorColor error:YES];
     }
